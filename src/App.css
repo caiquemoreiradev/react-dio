@@ -1,0 +1,117 @@
+.app {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form .info__form {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+
+  align-items: flex-start;
+}
+
+.form label {
+  color: #fff;
+  font-weight: bold;
+
+  margin-bottom: 5px;
+}
+
+.form input {
+  border: none;
+  padding: 5px;
+
+  border-radius: 10px;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+
+  margin: 15px 0 0 15px;
+
+  border-radius: 10px;
+
+  transition: all 0.2s;
+}
+
+.form button:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+
+.artists__section {
+  padding: 2rem;
+  margin-left: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  
+  width: 280px;
+  padding: 2rem;
+
+  color: #fff;
+  border: none;
+
+  transition: all 0.2s;
+}
+
+.card__container:hover {
+  cursor: pointer;
+
+  background-color: #fff;
+  color: #141414;
+
+  transform: scale(1.1);
+
+  border-radius: 10px;
+}
+
+.card__container img {
+  width: 280px;
+  height: 180px;
+
+  border-radius: 10px;
+}
+
+.card__container button {
+  padding: 10px;
+  border-radius: 10px;
+
+  border: none;
+
+  font-weight: bold;
+
+  transition: all 0.2s;
+}
+
+.card__container button:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
